@@ -2,13 +2,13 @@
 	font-family: "ubuntu";
 	font-style: normal;
 	font-weight: bold;
-	src: local("ubuntu bold"), local("ubuntu-bold"), url("/images/0ihfxul2emph0rojezvrad8e0i7kzn-epnyo3hzu7kw.woff") format("woff");
+	src: local("ubuntu bold"), local("ubuntu-bold"), url("/data/0ihfxul2emph0rojezvrad8e0i7kzn-epnyo3hzu7kw.woff") format("woff");
 }
 @font-face {
 	font-family: "ubuntu";
 	font-style: normal;
 	font-weight: normal;
-	src: local("ubuntu"), url("/images/_xyn3apat_yrrdeqb3sprg.woff") format("woff");
+	src: local("ubuntu"), url("/data/_xyn3apat_yrrdeqb3sprg.woff") format("woff");
 }
 html {
 	background: url("bg.png") left top repeat-x;

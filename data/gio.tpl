@@ -16,7 +16,10 @@
 	}
 	function pointingPaint(){}
 	function refreshPointing() {
-		$("head").append('<script type="text/javascript" src="cgi-bin/pointing.cgi"></script>');
+		pointingCGI = document.createElement('script');
+		pointingCGI.setAttribute("type","text/javascript");
+		pointingCGI.setAttribute("src", "cgi-bin/pointing.cgi");
+		document.getElementsByTagName("head")[0].appendChild(pointingCGI);
 		pointingPaint();
 	}
 	function loadBWT() {
@@ -29,7 +32,10 @@
 	function bwtStart() {
 		var startbwturl = "cgi-bin/startbwt.cgi?server=";
 		startbwturl += $("#serverinput").val();
-		$("head").append('<script type="text/javascript" src="' + startbwturl + '"></script>');
+		startbwtCGI = document.createElement('script');
+		startbwtCGI.setAttribute("type","text/javascript");
+		startbwtCGI.setAttribute("src", startbwturl);
+		document.getElementsByTagName("head")[0].appendChild(startbwtCGI);
 		$("#bwtTable").fadeOut(300, function(){ $(this).html('<tr><td>Simmetric:</td><td>Server &#8596; Client</td><td id="BWTsimmetric">...</td></tr><tr><td>Asimmetric:</td><td>Server &#8594; Client</td><td id="BWTasimSC">...</td></tr><tr><td>Asimmetric:</td><td>Server &#8592; Client</td><td id="BWTasimCS">...</td></tr>'); }).fadeIn(300);
 		btwPainterCicle = setInterval("refreshBWT();", 1000);
 	}

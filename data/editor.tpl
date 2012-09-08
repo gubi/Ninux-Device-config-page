@@ -14,7 +14,7 @@ $(document).ready(function(){
 	});
 });
 window.onbeforeunload = function(){ return 'onbeforeunload' };
--->
+//-->
 </script>
 <p>
 	A seguire le configurazioni generate per il device.<br />

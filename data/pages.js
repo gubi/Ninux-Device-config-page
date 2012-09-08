@@ -19,5 +19,12 @@ var pages = {
 		title: "Riepilogo della configurazione del device",
 		body: "editor.tpl",
 		show_on_menu: true
+	},
+	"info_page": {
+		id: "info_page",
+		page: "Info Page",
+		title: "eigenNet Minimal WebGui",
+		body: "gio.tpl",
+		show_on_menu: true
 	}
 };

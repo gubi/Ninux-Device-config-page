@@ -18,10 +18,7 @@ You can run a demo of the web version following this link: http://www.gotanother
 
 ### Before Install
 This repository contains 2 folders: compressed and uncompressed.
-The files contained in the 'on device' folder have been minified. If you need to change things use the files in 'for developing' folder, then report the changes to the compressed folder (minify).
-
-### Hack
-You can save much loading time simply by compressing contents and scripts in one row... ;)
+The files contained in the 'on device' folder have been minified. If you need to change things use the files in 'for developing' folder, then report the changes to the compressed folder ('on device').
 
 ----
 

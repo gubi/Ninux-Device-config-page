@@ -13,6 +13,7 @@ Please see "on device" version to follow updates or use "web" version to have wo
 
 ## Running web demo
 You can run a demo of the web version following this link: http://www.gotanotherway.com/apps/ninux/config_page/web/
+
 ----
 
 ### Before Install

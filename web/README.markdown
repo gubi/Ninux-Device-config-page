@@ -1,17 +1,19 @@
-# Ninux.org
-[NINUX](http://wiki.ninux.org/) is an Italian Wireless Community Network
+# Web version
+This is a web feature of "/dev/conf"
 
 ## Technology
-This Device config-site is in HTML5 and CSS3, and uses jQuery 1.8.1
+This Device config-site ("/dev/conf") is in PHP-MySql - HTML5 and CSS3, and uses jQuery 1.8.1
 
 ----
 
-### Before Install
-This repository contains 2 folders: compressed and uncompressed.
-The files contained in the 'on device' folder have been minified. If you need to change things use the files in 'for developing' folder, then report the changes to the compressed folder (minify).
+## Before Install
+Configure your database data in [common/include/.mydb.inc.php](https://github.com/gubi/Ninux-Device-config-page/blob/master/web/common/include/.mydb.inc.php) file.
 
-### Hack
-You can save much loading time simply by compressing contents and scripts in one row... ;)
+### Dependancies
+This version uses:
+* [ThrivingKings](https://github.com/ThrivingKings)/[Apprise](https://github.com/ThrivingKings/Apprise)
+* [ehynds](https://github.com/ehynds)/[jquery-notify](https://github.com/ehynds/jquery-notify)
+* [carhartl](https://github.com/carhartl)/[jquery-cookie](https://github.com/carhartl/jquery-cookie)
 
 ----
 

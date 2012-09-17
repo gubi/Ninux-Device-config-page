@@ -1,7 +1,7 @@
 This app, named "/dev/conf" is a tool that provides a grafical interface to [Arkanet](https://github.com/arkanet)'s [eigennet packages](https://github.com/arkanet/eigennet-packages).  
-Please see the licence on the bottom of this page
+Please see the licence on the bottom of this page.
 
-# Ninux.org
+## Ninux.org
 [NINUX](http://wiki.ninux.org/) is an Italian Wireless Community Network
 
 ## Technology

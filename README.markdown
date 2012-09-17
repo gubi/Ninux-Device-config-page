@@ -1,8 +1,15 @@
+This app, named "/dev/conf" is a tool that provides a grafical interface to [Arkanet](https://github.com/arkanet)'s [eigennet packages](https://github.com/arkanet/eigennet-packages).  
+Please see the licence on the bottom of this page
+
 # Ninux.org
 [NINUX](http://wiki.ninux.org/) is an Italian Wireless Community Network
 
 ## Technology
 This Device config-site is in HTML5 and CSS3, and uses jQuery 1.8.1
+
+## Status
+*To work properly, this app still needs a bash script that convert POST data to "/etc/config/eigennet" text file.*
+Please see "on device" version to follow updates or use "web" version to have working version.
 
 ----
 

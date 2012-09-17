@@ -1,4 +1,4 @@
-This app, named "/dev/conf" is a tool that provides a grafical interface to [Arkanet](https://github.com/arkanet)'s [eigennet packages](https://github.com/arkanet/eigennet-packages).  
+This app, named "*/dev/conf*" is a tool that provides a grafical interface to [Arkanet](https://github.com/arkanet)'s [eigennet packages](https://github.com/arkanet/eigennet-packages).  
 Please see the licence on the bottom of this page.
 
 ## Ninux.org
@@ -11,6 +11,8 @@ This Device config-site is in HTML5 and CSS3, and uses jQuery 1.8.1
 **To work properly, this app still needs a bash script that convert POST data to "/etc/config/eigennet" text file.**  
 Please see "on device" version to follow updates or use "web" version to have working version.
 
+## Running web demo
+You can run a demo of the web version following this link: http://www.gotanotherway.com/apps/ninux/config_page/web/
 ----
 
 ### Before Install

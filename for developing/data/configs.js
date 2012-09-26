@@ -35,23 +35,12 @@ var configs = {
 				title: "Inserisci il nome del dispositivo in formato 'aB09' senza caratteri speciali"
 			},
 			{
-				text: "AP e rete Mesh",
-				name: "accept_clients",
-				value: "true",
-				options: {
-					"true": "ON::::checked",
-					"false": "OFF"
-				},
-				title: "",
-				type: "radio"
-			},
-			{
 				text: "Indirizzo IPv4 Mesh",
 				name: "ip4addr_mesh",
 				value: "172.16.0.1",
 				type: "text",
 				placeholder: "Indirizzo wireless IPv4",
-				title: "Inserisci il tuo indirizzo wireless IPv4 conforme con gli IP su <a href=\"http://wiki.ninux.org/GestioneIndirizzi\" target=\"_blank\">Gestione Indirizzi</a> (forma base: 172.16.CAP.XYZ)"
+				title: "Inserisci il tuo indirizzo wireless IPv4 conforme con gli IP su <a href=\"http://wiki.ninux.org/GestioneIndirizzi#Tabella_IP_Classe_B_172.16.2BAC8-12\" target=\"_blank\">Gestione Indirizzi</a> (forma base: 172.16.CAP.XYZ)"
 			},
 			{
 				text: "Maschera di rete Mesh",
@@ -67,7 +56,7 @@ var configs = {
 				value: "192.168.1.21",
 				type: "text",
 				placeholder: "Indirizzo lan IPv4",
-				title: "Inserisci il tuo indirizzo lan IPv4 conforme agli IP su <a href=\"http://wiki.ninux.org/GestioneIndirizzi\" target=\"_blank\">Gestione Indirizzi</a> (forma base: 10.CAP.XYZ.ABC)"
+				title: "Inserisci il tuo indirizzo lan IPv4 conforme agli IP su <a href=\"http://wiki.ninux.org/GestioneIndirizzi#Tabella_IP_Classe_A_10.2BAC8-8\" target=\"_blank\">Gestione Indirizzi</a> (forma base: 10.CAP.XYZ.ABC)"
 			},
 			{
 				text: "Maschera di rete LAN",
@@ -83,7 +72,7 @@ var configs = {
 				value: "2001:4c00:893b:1:cab::1/128",
 				type: "text",
 				placeholder: "Indirizzo wireless IPv6",
-				title: "Inserisci il tuo indirizzo wireless IPv6 in conformità alle subnet stabilite su <a href=\"http://wiki.ninux.org/GestioneIndirizzi\" target=\"_blank\">Gestione Indirizzi</a>"
+				title: "Inserisci il tuo indirizzo wireless IPv6 in conformità alle subnet stabilite su <a href=\"http://wiki.ninux.org/GestioneIndirizzi#Suddivisione_Subnet_IPv6_pubbliche_2001:4c00:893b::.2BAC8-48\" target=\"_blank\">Gestione Indirizzi</a>"
 			},
 			{
 				text: "Indirizzo IPv6 LAN",
@@ -91,7 +80,7 @@ var configs = {
 				value: "2001:4c00:893b:cab::1/64",
 				placeholder: "Indirizzo lan IPv6",
 				type: "text",
-				title: "Inserisci il tuo indirizzo lan IPv6 dichiarato su <a href=\"http://wiki.ninux.org/GestioneIndirizzi\" target=\"_blank\">Gestione Indirizzi</a>"
+				title: "Inserisci il tuo indirizzo lan IPv6 dichiarato su <a href=\"http://wiki.ninux.org/GestioneIndirizzi#Suddivisione_Subnet_IPv6_pubbliche_2001:4c00:893b::.2BAC8-48\" target=\"_blank\">Gestione Indirizzi</a>"
 			},
 			{
 				text: "Dispositivo WAN",
@@ -119,14 +108,6 @@ var configs = {
 				placeholder: "0.0.0.0",
 				type: "text",
 				title: "Inserisci la subnet del tuo IP WAN"
-			},
-			{
-				text: "Prefisso radvd",
-				name: "radvd_prefix",
-				value: "2001:4c00:893b:cab::/64",
-				placeholder: "2001:4c00:893b:cab::/64",
-				type: "text",
-				title: "Inserisci la tua subnet per la configurazione di radvd in conformità a questo metodo: '2001:4c00:893b:SUBNET::/64'"
 			}
 		],
 		list: [
@@ -136,7 +117,7 @@ var configs = {
 				value: "160.80.221.11 8.8.8.8",
 				placeholder: "DNS preferiti",
 				type: "text",
-				title: "Cambia, se lo vuoi, il nameserver dei tuoi DNS preferiti o personalizzati"
+				title: "Cambia, se vuoi, il nameserver dei tuoi DNS preferiti o personalizzati"
 			}
 		]
 	},
@@ -237,7 +218,7 @@ var configs = {
 			{
 				text: "Canale Wi-Fi",
 				name: "wifi_channel",
-				value: "13",
+				value: "11",
 				placeholder: "",
 				type: "number",
 				maxlength: 2,
